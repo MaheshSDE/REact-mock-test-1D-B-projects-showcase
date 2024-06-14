@@ -1,0 +1,25 @@
+.listItemContainer {
+  margin: 20px;
+  width: 300px;
+  box-shadow: 0px 10px 10px 0px #888888;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 10px;
+}
+.items-container {
+  height: 200px;
+}
+.image-url {
+  height: 200px;
+  width: 300px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.name {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #475569;
+}

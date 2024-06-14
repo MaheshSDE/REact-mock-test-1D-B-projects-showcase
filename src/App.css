@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.app-container {
+  width: 100%;
+}
+
+.header-container {
+  height: 15vh;
+  background-color: #f1f5f9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 30px;
+}
+.website-logo {
+  height: 70px;
+  width: 250px;
+}
+.bottom-container {
+  width: 100%;
+  padding-left: 30px;
+}
+.select-style {
+  height: 30px;
+  width: 280px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  outline: none;
+  border: 1px solid #cbd5e1;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.option-style {
+  font-family: 'Roboto';
+  font-weight: 400;
+  color: #475569;
+  outline: none;
+  cursor: pointer;
+}
+
+.failureViewContainer {
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-image {
+  height: 300px;
+  width: 400px;
+}
+.failureHeading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #4656a1;
+}
+.failureDescription {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #1e293b;
+}
+.button {
+  height: 40px;
+  width: 70px;
+  background-color: #4656a1;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+}
+.loader-container {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.unOrderListContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  list-style-type: none;
+}
